@@ -1,0 +1,12 @@
+# Path to the NEW folder you just downloaded
+path: C:\Users\Hp\Desktop\TrueML_ParkingSystem\2_lpn_training\dataset\Indian License Plate Detection.v1i.yolov8
+
+# These lines are now correct because the YOLOv8 folder
+# WILL contain these 'images' subfolders.
+train: train/images
+val: valid/images
+test: test/images
+
+# Class names
+names:
+  0: license_plate

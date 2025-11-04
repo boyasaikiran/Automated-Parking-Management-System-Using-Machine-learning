@@ -1,0 +1,9 @@
+tensorflow
+ultralytics
+easyocr
+pillow
+numpy
+opencv-python
+streamlit
+pandas
+keras-ocr

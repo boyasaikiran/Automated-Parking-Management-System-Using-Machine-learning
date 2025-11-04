@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Model files and datasets
+# *.pt
+# *.h5
+# *.keras
+dataset/
+*/dataset/
+1_color_training/dataset/
+2_lpn_training/dataset/
+car_images/
+
+# Temporary files and uploads
+temp_uploads/
+*.tmp
+*.temp
+*.log
+
+# Database
+*.sqlite
+*.db
+*.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Custom project specific
+private_test/
+*_run/
+# Uncomment below if you don't want to track training runs
+# lpn_training_run/
+# lpn_training_run_fast/
+# lpn_training_run_fastest/
